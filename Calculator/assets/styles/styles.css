@@ -1,0 +1,98 @@
+body {
+    height: 97vh;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+}
+
+
+h2{
+    margin-top: 0vh;
+    letter-spacing: 5px;
+    font-size: 30px;
+    color: tomato;
+}
+.container{
+    height: 59vmin;
+    width: 50vh;
+    padding: 1rem;
+    border: 1px solid #ffffff;
+    border-radius: 0% 0% 5% 5%;
+    background-color:whitesmoke;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115,119,0.5);
+    margin-top: -10px;
+}
+
+.input-cnt{
+    margin-top: -25px;
+    border: 1px solid #ffffff ;
+    padding: 1.39rem;
+    border-bottom: none;
+    border-radius: 5% 5% 0% 0%;
+    margin-bottom: -35px;
+    background-color:whitesmoke;
+    background: transparent;
+
+}
+
+.flex{
+    flex-direction: column;
+    gap: 2rem;
+    display: flex;
+}
+
+
+.grid{
+    display: grid;
+}
+
+.item-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+
+.repeat-4{
+    grid-template-columns: repeat(4,1fr);
+    gap:1.5rem
+}
+.input-box{
+    
+    grid-column: span 4;
+    padding: 11px;
+    font-size: 1.5rem;
+    text-align: right;
+    outline: none; appearance: none;
+    border: 1px none rgb(0, 0, 0);
+    background-color: white;
+    box-shadow: 0px 3px 15px rgba(84,84,84, 0.2);
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+
+.btn{
+    border: 1px solid rgb(230, 219, 219);
+    outline: none; appearance: none;
+    padding:.7rem;
+    border-radius: 50%;
+    font-size: 20px;
+    transition: .10s;
+    cursor: pointer;
+    background-color: white;
+    background: transparent;
+    box-shadow: -6px -6px 15px rgba(255,255, 255, 0.1);
+    color: #ffffff;
+
+}
+.btn:hover{
+    background-color:rgba(255, 255, 255, 0.897) ;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(233, 233, 225);
+}
+
+.btn-clr{
+   color: #6dee0a;
+}
